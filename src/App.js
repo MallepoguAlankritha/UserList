@@ -100,12 +100,7 @@ const App = () => {
     setStatusMessage('Profile updated successfully');
   };
   
-  // const handleProfileUpdate = (userId, updatedProfile) => {
-  //   setUsers((prevUsers) =>
-  //     prevUsers.map((user) => (user.id === userId ? { ...user, ...updatedProfile } : user))
-  //   );
-  //   setStatusMessage('Profile updated successfully');
-  // };
+ 
 
   const handleChangePassword = (userId, newPassword) => {
     setUsers((prevUsers) =>
