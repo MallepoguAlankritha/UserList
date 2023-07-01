@@ -1,0 +1,183 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar a.active {
+    font-weight: bold;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-name {
+    margin-right: 10px;
+  }
+  
+  .profile-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-username {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .signout-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-details {
+    margin-top: 20px;
+  }
+  
+  .company-heading,
+  .address-heading {
+    margin-top: 10px;
+  }
+  
+  .company-name,
+  .company-catchphrase,
+  .company-bs,
+  .address-street,
+  .address-suite,
+  .address-city,
+  .address-zipcode {
+    margin: 0;
+  }
+  
+  .address-heading {
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      padding: 20px 0;
+      text-align: center;
+    }
+  
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-info {
+      margin-bottom: 10px;
+    }
+  
+    .content {
+      padding: 0;
+    }
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .profile-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .signout-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .signout-button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .signout-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
